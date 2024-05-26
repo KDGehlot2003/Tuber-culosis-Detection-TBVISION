@@ -173,6 +173,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+          margin-top: 200px;
 }
 
 .slider_detail-box h1 {
@@ -570,3 +571,10 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  height: auto;
+}
